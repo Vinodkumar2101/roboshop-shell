@@ -16,4 +16,4 @@ mongo --host mongodb.devopsb75.online </app/schema/user.js
 
 systemctl daemon-reload
 systemctl enable user
-systemctl start user
+systemctl restart user
